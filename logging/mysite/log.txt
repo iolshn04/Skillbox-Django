@@ -1,0 +1,62 @@
+2023-09-08 12:30:16,922 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/mysite/settings.py changed, reloading.
+2023-09-08 12:30:17,304 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 12:32:17,651 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/mysite/settings.py changed, reloading.
+2023-09-08 12:32:18,033 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 12:52:36,186 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/mysite/settings.py changed, reloading.
+2023-09-08 12:52:36,584 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 12:56:01,997 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/mysite/settings.py changed, reloading.
+2023-09-08 12:56:02,438 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 12:56:06,789 [WARNING] django.request: Not Found: /
+2023-09-08 15:43:20,189 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 15:43:27,943 [WARNING] django.request: Not Found: /
+2023-09-08 15:44:33,025 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2023-09-08 15:44:33,511 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 15:44:59,698 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2023-09-08 15:45:00,057 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 15:45:01,758 [ERROR] django.request: Internal Server Error: /shop/products/export/
+Traceback (most recent call last):
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/shopapp/views.py", line 144, in get
+    name = elem["nae"]
+           ~~~~^^^^^^^
+KeyError: 'nae'
+2023-09-08 15:45:39,042 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2023-09-08 15:45:39,458 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 15:54:55,475 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/mysite/settings.py changed, reloading.
+2023-09-08 15:54:55,989 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 15:55:18,125 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2023-09-08 15:55:18,672 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-09-08 15:55:21,074 [ERROR] django.request: Internal Server Error: /shop/products/export/
+Traceback (most recent call last):
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/shopapp/views.py", line 144, in get
+    name = elem["nae"]
+           ~~~~^^^^^^^
+KeyError: 'nae'
+2023-09-08 15:56:45,019 [INFO] django.utils.autoreload: /Users/ivanolshnitsky/PycharmProjects/python_django/logging/mysite/shopapp/views.py changed, reloading.
+2023-09-08 15:56:45,510 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

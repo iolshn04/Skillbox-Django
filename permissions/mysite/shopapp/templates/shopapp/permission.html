@@ -1,0 +1,21 @@
+{% extends "shopapp/base.html" %}
+
+{% block title %}
+	Permission
+{% endblock %}
+
+{% block body %}
+    {% if perms.shopapp %}
+    <p>You have permission to do something in the shopapp.</p>
+    {% if perms.shopapp.add_product %}
+        <<p>You can create products!</p>>
+        <ul>
+          <li>
+            <a href="{% url 'shopapp:product_create' %}">Products create</a>
+          </li>
+        </ul>
+    {% endif %}
+    {% else %}
+        <h1>You don't have permission to do anything in the shopapp.</h1>
+    {% endif %}
+{% endblock %}

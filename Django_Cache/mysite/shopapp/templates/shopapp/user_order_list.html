@@ -1,0 +1,23 @@
+{% extends 'shopapp/base.html' %}
+{% load cache %}
+
+{% block title %}
+    User orders list
+{% endblock %}
+
+{% block body %}
+    <h1>Order info</h1>
+    {% cache 100 owner.id %}
+        {% if orders %}
+            <h2>Пользователь {{owner}} выполнил следующие заказы </h2>
+            {% for order in orders %}
+
+                <div>
+                    <a href="{% url 'shopapp:order_details' pk=order.id %}"> Заказ №{{ order.id }}</a>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endcache %}
+
+
+{% endblock %}

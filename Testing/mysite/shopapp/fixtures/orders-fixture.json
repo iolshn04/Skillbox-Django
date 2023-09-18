@@ -1,0 +1,17 @@
+[
+  {
+    "model": "shopapp.order",
+    "pk": 1,
+    "fields": {
+      "delivery_address": "ul Pupkina, d 8",
+      "promocode": "SALE123",
+      "created_at": "2023-08-28T15:43:22.832Z",
+      "user": 1,
+      "products": [
+        2,
+        1,
+        3
+      ]
+    }
+  }
+]
